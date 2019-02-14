@@ -11,6 +11,11 @@ body{
     height: 80px;
 }
 
+nav p{
+    font-size: 16px;
+    text-align: right;   
+}
+
 .section1{
     font-family: 'Montserrat';
     font-size: 60px;
@@ -22,7 +27,7 @@ body{
     padding-bottom: 50px;
 }
 
-.smallfont{
+.section1 p {
     font-family: 'Lato';
     font-size: 30px;
     font-weight: 300;
@@ -43,6 +48,7 @@ body{
     display: inline-block;
     width: 350px;
     padding: 10px;
+    
 
 }
 
@@ -57,7 +63,7 @@ body{
     padding-bottom: 20px;
     }
 
-    .abouttext{
+    .section3 p{
         font-family: 'Lato';
         font-size: 20px;
         font-weight: 300;
@@ -78,7 +84,7 @@ body{
     }
 
     .section4{
-        font-family: 'Montserrat';
+    font-family: 'Montserrat';
     font-size: 36px;
     font-weight: bolder;
     color: #2c3e50;
@@ -108,6 +114,8 @@ body{
        font-family: 'Montserrat';
        font-size: 20px;
        color: white;
+       column-count: 3;
+       
     }
 
     .footer2{
@@ -119,5 +127,4 @@ body{
     padding-bottom: 24px;
     vertical-align: center;
     text-align: center;
-
     }
