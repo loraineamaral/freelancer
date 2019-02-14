@@ -90,8 +90,20 @@ nav p{
     color: #2c3e50;
     background-color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 300px 20px 300px;
+    }
+
+    form input{
+        font-family: 'Lato';
+        font-size: 24px;
+        text-align: left;
+        box-shadow: 0 0 0 0;
+        border: 0 none;
+        outline: 0;
+        line-height: 1.5;
+        padding: 6px 12px;
+        width: 50%;
+
     }
 
     .button2{
@@ -114,7 +126,6 @@ nav p{
        font-family: 'Montserrat';
        font-size: 20px;
        color: white;
-       column-count: 3;
        
     }
 
