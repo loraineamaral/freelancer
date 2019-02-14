@@ -9,16 +9,9 @@ body{
     color: white;   
     margin: 0;
     padding-top: 1%;
-    padding-bottom: 30px;
-    padding-left: 90px;
-    height: 70px;
+    height: 8%;
     display: flex;
-    justify-content: flex-start;
-}
-ul{
-    display: flex;
-    justify-content: flex-end
-    padding-inline-end: 30px;
+    justify-content: space-around;
 }
 li {
     display: inline-block;
@@ -27,7 +20,7 @@ li {
 .sectionstart{
     font-family: 'Montserrat';
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 700;
     background-color: #18bc9c;
     color: white;
     text-align: center;
@@ -37,7 +30,7 @@ li {
 .sectionstart p {
     font-family: 'Lato';
     font-size: 28px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .sectionport{
     font-family: 'Montserrat';
@@ -76,28 +69,24 @@ li {
       font-family: 'Lato';
       font-size: 20px;
       font-weight: 100px;
-      box-sizing: border-box;
-      width: 510px;
-      height: 120px;
-      padding: 30px; 
-      display: inline-flex;
-      justify-content: space-between;
+      display: inline-block;
       line-height: 1.5;
-      text-align: left;
+      width: 25%;
+      height: 30%;
+      text-align: start;
+      margin-right: 30px;
     }
     .divabout2{
       font-family: 'Lato';
       font-size: 20px;
       font-weight: 100px;
-      box-sizing: border-box;
-      width: 510px;
-      height: 120px;
-      display: inline-flex;
-      justify-content: space-between; 
+      display: inline-block;
       line-height: 1.5;
-      text-align: left;
+      width: 25%;
+      height: 30%;
+      text-align: start;
     }
-    .button1{
+    .sectionabout button{
         font-family: 'Lato';
         font-size: 20px;
         border-width: 2px;
@@ -110,9 +99,8 @@ li {
         border-style: solid;
         display: block;
         margin-left: 550px;
-        margin-top: 30px;
+        margin-top: 60px;
         margin-bottom: 50px;
-        
     }
     .sectioncontact{
     font-family: 'Montserrat';
@@ -122,6 +110,7 @@ li {
     background-color: white;
     text-align: center;
     padding: 20px 300px 20px 300px;
+    
     }
     form input{
         font-family: 'Lato';
@@ -157,18 +146,19 @@ li {
        font-family: 'Montserrat';
        font-size: 20px;
        color: white;
-       padding-top: 30px;;
+       padding-top: 30px;
+       padding-bottom: 90px;
+       display: flex;
+       justify-content: space-evenly;
     }
     .flocation{
       font-family: 'Lato';
       font-size: 20px;
       font-weight: 200px;
       box-sizing: content-box;
-      width: 300px;
-      height: 100px;
+      text-align: center;
       padding: 30px; 
-      display: inline-flex;
-      justify-content: space-around;
+      width: 20%;
     }
     .fsocial{
       font-family: 'Lato';
@@ -177,28 +167,43 @@ li {
       box-sizing: content-box;
       width: 300px;
       height: 100px;
-      padding: 30px; 
-      display: inline-flex;
-      justify-content: space-around;
+      padding: 30px;
+      
+    }
+
+    .fsocial i{
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 20px;
+        height: 20px;
+        padding: 15px;
+    }
+    .fabout span{
+        color: #18bc9c;   
     }
     .fabout{
       font-family: 'Lato';
       font-size: 20px;
       font-weight: 200px;
       box-sizing:content-box;
-      width: 300px;
+      width: 280px;
       height: 100px;
-      padding: 30px; 
-      display: inline-flex;
-      justify-content: space-around;
+      padding: 30px;
+      text-align: center; 
     }
+      .footer1 p{
+        font-family: 'Montserrat';
+        font-size: 24px;
+        font-weight: 700;
+        text-align: center;
+      } 
     .footer2{
     background-color: #212529;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     vertical-align: center;
     text-align: center;
     }
