@@ -27,10 +27,26 @@ li {
     padding-top: 90px;    
     padding-bottom: 50px;
 }
+.sectionstart hr{
+  width: 250px;
+  height: 4px;
+  background-color: white;
+  border: none;
+  position: relative;
+}
+.sectionstart i{
+  font-size: 30px;
+  background-color: #18bc9c;
+  position: absolute;
+  margin-top: -55px;
+  margin-left: -25px;
+  padding: 10px;
+}
 .sectionstart p {
     font-family: 'Lato';
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 400;
+    padding-top:20px;
 }
 .sectionport{
     font-family: 'Montserrat';
@@ -41,6 +57,21 @@ li {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 80px;
+}
+.sectionport hr{
+  width: 250px;
+  height: 4px;
+  background-color: #2c3e50;
+  border: none;
+  position: relative;
+}
+.sectionport i{
+  font-size: 30px;
+  background-color: white;
+  position: absolute;
+  margin-top: -46px;
+  margin-left: -25px;
+  padding: 10px;
 }
 .imag{
     display: inline-block;
@@ -65,6 +96,14 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     }
+    .sectionabout hr{
+      width: 250px;
+      height: 4px;
+      background-color: white;
+      border: none;
+      position: relative;
+      margin-bottom: 50px;
+    }
     .divabout1{
       font-family: 'Lato';
       font-size: 20px;
@@ -88,7 +127,7 @@ li {
     }
     .sectionabout button{
         font-family: 'Lato';
-        font-size: 20px;
+        font-size: 18px;
         border-width: 2px;
         color: #f8f9fa;
         border-color: #f8f9fa;
@@ -109,8 +148,23 @@ li {
     color: #2c3e50;
     background-color: white;
     text-align: center;
-    padding: 20px 300px 20px 300px;
-    
+    padding: 20px 300px 20px 300px;  
+    }
+    .sectioncontact hr{
+      width: 250px;
+      height: 4px;
+      background-color: #2c3e50;
+      border: none;
+      position: relative;
+    }
+    .sectioncontact i{
+      font-size: 30px;
+      background-color: white;
+      position: absolute;
+      margin-top: -46px;
+      margin-left: -25px;
+      padding: 10px;
+
     }
     form input{
         font-family: 'Lato';
@@ -168,11 +222,9 @@ li {
       width: 300px;
       height: 100px;
       padding: 30px;
-      
     }
-
     .fsocial i{
-        border: 1px solid white;
+        border: 3px solid white;
         border-radius: 100%;
         width: 20px;
         height: 20px;
